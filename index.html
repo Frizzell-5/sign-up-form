@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "styleSheet" href = "style.css"/>
+    <title>Sign-Up Form</title>
+    
+</head>
+<body>
+    <div class = "main">
+        <div class = "image">
+                <div class = "textTitle">
+                        <img src="https://pluspng.com/img-png/brain-memory-png-brain-idea-memory-patient-problem-psychiatry-psychology-icon-512.png" alt="logo" class="brain">
+                <h1 class = "cool">BRAINO</h1>
+            </div>
+        </div>
+        <div class = "right-side">
+
+            
+            <div class = "text">
+                <p>This is not a real online service! You know you need something like this in your life to help realize your deepest dreams. <br> 
+                   Sign up <em> now </em> to get started.
+                </p>
+                <br>
+                <p> You <em> know </em> you want to.</p>
+            </div>
+            
+            <form action = "#">
+                <p class = "title">Let's do this!</p>
+                <div class = "leftSide">
+                    <div class = "input">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+                    
+                    <div class="input">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                    
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    </div>
+                <div class="rightSide">
+
+                    <div class="input">
+                        <label for="phone-number">Phone number</label>
+                        <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+                    </div>
+                    
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" name="passwor" id="password" required>
+                    </div>
+                    
+                    <div class="input">
+                        <label for="confirm-password">Confirm password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+                    
+                    </div>
+                    
+                    <div class="button" id = "button"><button type="submit" onclick = "check()">Create Account</button></div>
+
+                    
+            </form>
+            <div class="log-in left"><p>Already have an account?</p><a href="#">Log in</a></div>
+
+        </div>
+    </div>
+</body>
+</html>
